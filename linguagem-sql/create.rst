@@ -31,7 +31,7 @@ Abaixo temos diversas implementações do comando CREATE e suas CONSTRAINT´s.
     
 - CONSTRAINT PRIMARY KEY & IDENTITY
 
-Nesse exemplo adicionamos uma chave primária ao campo ClienteCodigo e configuramos a propriedade IDENTITY que vai gerar um número com incremento de (um) a cada inserção na tabela Clientes. Você pode personalizar o incremento de acordo com sua necessidade, neste exemplo temos (1,1) iniciando em um e inrementando um.
+Nesse exemplo adicionamos uma chave primária ao campo ClienteCodigo e configuramos a propriedade IDENTITY que vai gerar um número com incremento de (um) a cada inserção na tabela Clientes. Você pode personalizar o incremento de acordo com sua necessidade, neste exemplo temos (1,1) iniciando em um e incrementando um.
 
   .. code-block:: sql
     :linenos:
@@ -62,7 +62,7 @@ Repare que sempre damos um nome para a CONSTRAINT, isso é uma boa prática, par
 
 - ALTER TABLE ADD CONSTRAINT
 
-Também podemos adiconar CONSTRAINT´s através do comando ALTER TABLE ... ADD CONSTRAINT. Geralmente após criar todas as entidades podemos então criar as restrições entre elas.
+Também podemos adicionar CONSTRAINT´s através do comando ALTER TABLE ... ADD CONSTRAINT. Geralmente após criar todas as entidades podemos então criar as restrições entre elas.
 
  .. code-block:: sql
     :linenos:
