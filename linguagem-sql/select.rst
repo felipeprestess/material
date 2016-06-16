@@ -10,7 +10,7 @@ SELECT
 
 - O Comando FROM indica a origem dos dados que queremos. Na consulta acima indicamos que queremos todas as informações de clientes. É possível especificar mais de uma tabela no comando FROM, porém, se você indicar mais de uma tabela no comando FROM, lembre-se de indicar os campos que fazem o relacionamento entre as tabelas mencionadas na cláusula FROM.
 
-- O comando WHERE indica quais as consições necessárias e que devem ser obedecidadas para aquela consulta. Procure usar campos restritivos ou indexados para otimizar sua consulta. Na tabela Clientes temos o código do cliente como chave, isso mostra que ele é um bom campo para ser usado como filto.
+- O comando WHERE indica quais as condições necessárias e que devem ser obedecidadas para aquela consulta. Procure usar campos restritivos ou indexados para otimizar sua consulta. Na tabela Clientes temos o código do cliente como chave, isso mostra que ele é um bom campo para ser usado como filto.
 
   .. code-block:: sql
     :linenos:
