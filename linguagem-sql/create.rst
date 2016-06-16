@@ -62,7 +62,7 @@ Repare que sempre damos um nome para a CONSTRAINT, isso é uma boa prática, par
 
 - ALTER TABLE ADD CONSTRAINT
 
-Também podemos adiconar CONSTRAINT´s através do comando ALTER TABLE ... ADD CONSTRAINT. Geralmente após criar todas as entidades podemos então criar as restrições entre elas.
+Também podemos adicionar CONSTRAINT´s através do comando ALTER TABLE ... ADD CONSTRAINT. Geralmente após criar todas as entidades podemos então criar as restrições entre elas.
 
  .. code-block:: sql
     :linenos:
